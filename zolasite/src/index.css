@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 1px s;
+}
+
+.title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 70px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subhead {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 0;
+}
+
+.nav-meta {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav h2 {
+  padding: 18px;
+}
+
+.banner {
+  min-height: 100vh;
+  height: 800px;
+  background: url('/cynthiaandwilliam.png') no-repeat center;
+  background-size: cover;
+}
+
+.banner-text {
+  text-align: center;
+  color: #ffffff;
+}
+
+.detail {
+  background-color: #6CB35D;
+  color: #ffffff;
+  padding: 100px 50px;
+  text-align: center;
+  height: 500px;
+}
+
+.feather > img {
+  width: 20%;
+}
+
+.detail-title > .header {
+  padding: 24px;
+}
+
+.detail-text > p {
+  padding: 20%;
+}
+
+.vert-div {
+  width: 0;
+  border: 1px solid #ffffff;
+  height: 100%;
+}
