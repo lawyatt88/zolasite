@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 70px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.subhead {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: 0;
+}
+
+.nav-meta {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: inline;
+}
+
+nav {
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+nav h2 {
+  padding: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  height: 900px;
+  background: url('/cynthiaandwilliam.png') no-repeat top;
+  background-size: cover;
+}
+
+.banner::after {
+  content: '';
+    position: absolute;
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);                
+    width: 100%; 
+    height: 3px;
+    bottom: 0;
+}
+
+.banner-text {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 168px;
+}
+
+.detail-wrapper {
+  padding-top: 10vw;
+  background-color: #6CB35D;
+  color: #ffffff;
+}
+
+.detail {
+  padding: 40px 50px 100px;
+  text-align: center;
+  height: 500px;
+  justify-content: center;
+}
+
+.feather > img {
+  width: 20%;
+}
+
+.detail-title > .header {
+  padding: 24px;
+  margin: 0;
+}
+
+.date {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.detail-text > p {
+  padding: 0 8vw;
+  font-weight: 300;
+}
+
+.detail-title, .detail-text {
+  margin-top: 60px;
+}
+
+.vert-div {
+  width: 0;
+  border: 1px solid #ffffff;
+  height: 100%;
+}
+
+.extra-text {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .nav-meta, .vert-div, .feather {
+    display: none;
+  }
+
+  nav {
+    padding: 5vw;
+  }
+
+  .banner {
+    height: 260px;
+  }
+
+  .header {
+    font-size: 5vw;
+  }
+
+  nav h2 {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .banner-text {
+    font-size: 5vw;
+    line-height: 1.5;
+    margin-top: 60px;
+  }
+
+  .detail-wrapper {
+    padding-top: 12vw;
+  }
+
+  .detail {
+    flex-direction: column;
+    padding: 0;
+    height: 100%;
+  }
+
+  .detail-title > .header {
+    border-top: 1px solid #fff;
+    display: inline-block;
+    padding: 7vw 3vw 5vw;
+  }
+
+  .detail:first-child .detail-title > .header {
+    border-top: none;
+  }
+
+  .detail-text > p {
+    padding: 0 7vw;
+  }
+
+  .date {
+    font-size: 15px;
+  }
+
+  .extra-text {
+    display: inline;
+  }
+
+  .detail-title, .detail-text {
+    margin-top: 0;
+  }
+
+}
+
+/* User Grid Styling  */
+
+#container-wrapper {
+  margin-top: 100px;
+}
+
+.card-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-age {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.card-cat {
+  font-size: 12px;
+}
